@@ -4,9 +4,9 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "user@domain.com"
+ssh_user       = "hiltmon@noverse.com"
 ssh_port       = "22"
-document_root  = "~/website.com/"
+document_root  = "~/noverse.com/"
 rsync_delete   = true
 deploy_default = "rsync"
 
@@ -109,6 +109,9 @@ task :new_post, :title do |t, args|
     post.puts "categories: "
     post.puts "---"
   end
+  # Log to Day One and open it for editing in Byword
+  %x{~/scripts/LogtoDayOne.rb "@noverse.com Post: #{title}"}
+  %x{open "#{filename}" -a Byword}
 end
 
 # usage rake new_page[my-new-page] or rake new_page[my-new-page.html] or rake new_page (defaults to "new-page.markdown")
@@ -145,6 +148,9 @@ task :new_page, :filename do |t, args|
       page.puts "footer: true"
       page.puts "---"
     end
+    # Log to Day One and open it for editing in Byword
+    %x{~/scripts/LogtoDayOne.rb "@noverse.com Page: #{title}"}
+    %x{open "#{file}" -a Byword}
   else
     puts "Syntax error: #{args.filename} contains unsupported characters"
   end

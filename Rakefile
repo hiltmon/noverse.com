@@ -6,13 +6,8 @@ require "stringex"
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
 ssh_user       = "hiltmon@noverse.com"
 ssh_port       = "22"
-<<<<<<< HEAD
 document_root  = "~/noverse.com/"
 rsync_delete   = true
-=======
-document_root  = "~/website.com/"
-rsync_delete   = false
->>>>>>> 2b67270f960563c55dd6c66495517bccc4f7fb17
 deploy_default = "rsync"
 
 # This will be configured for you when you run config_deploy

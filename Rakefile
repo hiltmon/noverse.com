@@ -9,6 +9,7 @@ ssh_port       = "22"
 document_root  = "~/noverse.com/"
 rsync_delete   = true
 deploy_default = "rsync"
+edit_default   = "iA Writer" #"Byword"
 
 # This will be configured for you when you run config_deploy
 deploy_branch  = "gh-pages"
@@ -110,8 +111,8 @@ task :new_post, :title do |t, args|
     post.puts "---"
   end
   # Log to Day One and open it for editing in Byword
-  %x{~/scripts/LogtoDayOne.rb "@noverse.com Post: #{title}"}
-  %x{open "#{filename}" -a Byword}
+  # %x{~/scripts/LogtoDayOne.rb "@noverse.com Post: #{title}"}
+  # %x{open "#{filename}" -a Byword}
 end
 
 # usage rake new_page[my-new-page] or rake new_page[my-new-page.html] or rake new_page (defaults to "new-page.markdown")
@@ -150,7 +151,7 @@ task :new_page, :filename do |t, args|
     end
     # Log to Day One and open it for editing in Byword
     %x{~/scripts/LogtoDayOne.rb "@noverse.com Page: #{title}"}
-    %x{open "#{file}" -a Byword}
+    %x{open "#{filename}" -a "#{edit_default}"}
   else
     puts "Syntax error: #{args.filename} contains unsupported characters"
   end

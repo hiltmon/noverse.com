@@ -11,7 +11,7 @@ footer: false
 
 **Email**: [contact (at) noverse (dot) com](mailto:contact@noverse.com)
 
-**Phone**: +1 (347) 687-5250
+**Phone**: +1 (917) 502-8422
 
 ## Support
 

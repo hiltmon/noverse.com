@@ -7,6 +7,8 @@ sharing: false
 footer: false
 ---
 
+Whether you are a buy-side firm looking for an experienced technologist to consult, design and deliver software to maximize your competitive edge, or a new startup looking for for some core technology, Noverse can help.
+
 ## <a href="{{ root_url }}/services/development">Software Development</a>
 
 Noverse crafts brilliant software applications to meet your needs, whether web, iOS or Mac.  We deliver reliable, maintainable, well-architected products that are easy to use and scale. This is our <a href="{{ root_url }}/services/development">Development Service</a>.

@@ -9,7 +9,7 @@ footer: false
 
 ## Look at our Product's web pages
 
-Most of our products have a web site that contains all sorts of brilliant information including how to use the features of each application, and answers to fequently asked questions.
+Most of our products have a web site that contains all sorts of brilliant information including how to use the features of each application, and answers to frequently asked questions.
 
 * For [Kifu](http://www.kifuapp.com) support, go to [Kifu Support](http://www.kifuapp.com/support).
 * For [oo.com.au](http://www.oo.com.au) help, go to [iPhone App Help](http://www.oo.com.au/iphone-app-help/)

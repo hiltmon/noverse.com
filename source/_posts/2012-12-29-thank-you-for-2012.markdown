@@ -6,7 +6,7 @@ comments: true
 categories: 
 ---
 
-We at Noverse wish to thank all our wonderful clients and partners for such a brilliant *third* year in business. Unforunately, most of our clients prefer to remain private, as in:
+We at Noverse wish to thank all our wonderful clients and partners for such a brilliant *third* year in business. Unfortunately, most of our clients prefer to remain private, as in:
 
 {% blockquote %}
 The first rule of Fight Club is: You do not talk about Fight Club.

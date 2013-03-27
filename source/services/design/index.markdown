@@ -7,6 +7,8 @@ sharing: false
 footer: false
 ---
 
+{% img right /images/service-design.png 104 104 %}
+
 Traditionally, the software design process has been one of documenting how a requirement will be implemented in code. That definition misses the whole point of software design. True software design is about technical design (platform, architecture and workflow) and non-technical design (usability, user experience, and intuitiveness). Noverse's product design services encompass both.
 
 * **Technical design**: Noverse can design the right platform to meet your business and software needs. Noverse will design a solid systems architecture to enable you to efficiently build and integrate your systems, scale your business and expand your competencies.

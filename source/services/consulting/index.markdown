@@ -7,8 +7,11 @@ sharing: false
 footer: false
 ---
 
+{% img right /images/service-consult.png 104 104 %}
+
 Starting a business, starting a new line of business, or just trying to bring things up to date. With over 10 years in the finance industry and the 10 before that elsewhere, Noverse's consulting services can help you in a myriad of ways, including:
 
+* **Outsourced CTO**: If you need a *part-time* Chief Technology Officer (CTO) to manage your technology team, look after your vendors and lead your technology strategy, Noverse can help. From strategy to project management, Noverse can identify the best technology opportunities for your business and make them happen.
 * **Platform Consulting**: Noverse can help you choose and build the right core systems around which to establish and grow your business, providing you with a platform that is responsive, flexible, scaleable and cost effective.
 * **Architecture Planning**: If you are going to be building your own systems, having a solid architecture is a must. Many business forget this and land up with a hodge-podge of systems and technologies held together with electronic chewing gum and baling wire. Noverse can design and structure a solid reliable software architecture upon which to base and build your own cohesive platform.
 * **Build or buy decisions**: Common wisdom holds that you can pretty much buy a system for any business process and then glue it together with the others you buy to create a platform. But common wisdom does not take the rate of business and technological change into account, the need to be responsive and flexible in business and the need to create a core competitive advantage and competency. Noverse can help you choose which systems to buy as they *are not* core, which to buy because they *are* core and which to build to gain true advantages.

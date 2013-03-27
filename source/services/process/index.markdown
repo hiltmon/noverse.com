@@ -7,6 +7,8 @@ sharing: false
 footer: false
 ---
 
+{% img right /images/service-process.png 104 104 %}
+
 Noverse's process and training services provide you and your team with the skills and processes to run a better, more efficient, more responsive, leaner and sharper IT group. Services include:
 
 * **Project Management**: Our principal's almost 20 years of active project management experience means than Noverse can manage your projects exceptionally well. Our training services can also show you how to manage your projects better. Learn how to plan, manage, organize and control your project, motivate your project team and satisfy your project's customer.

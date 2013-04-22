@@ -11,6 +11,6 @@ function onDocLoaded(){window.AdobeEdge.loaded=!0;fnCycle({event:"begin"});isCap
 requiresSVG=false;doDelayLoad=false;htFallbacks={"/edge/header/edge_includes/jquery-1.7.1.min.js":"http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"};aLoader=[{load:"http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js",callback:function(result,key){if(!window.jQuery){yepnope({load:"/edge/header/edge_includes/jquery-1.7.1.min.js",callback:edgeCallback});return false;}return true;}},{load:"/edge/header/edge_includes/edge.1.5.0.min.js"},{load:"/edge/header/index_edge.js"},{load:"/edge/header/index_edgeActions.js"}];if(AdobeEdge.bootstrapLoading){signaledLoading=true;AdobeEdge.loadResources=doLoadResources;AdobeEdge.playWhenReady=playWhenReady;}
 loadResources(aLoader,doDelayLoad);preContent={dom:[]};
 //simpleContent
-dlContent={dom:[{id:'Poster',type:'image',tag:'img',rect:['0','0','300px','70px','auto','auto'],fill:["rgba(0,0,0,0)",'images/Poster.png','0px','0px']}]};
+dlContent={dom:[{id:'Poster',type:'image',tag:'img',rect:['0','0','300px','70px','auto','auto'],fill:["rgba(0,0,0,0)",'/edge/header/images/Poster.png','0px','0px']}]};
 //simpleContent
 })("Noverse-Logo-Edge");

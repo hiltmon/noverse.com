@@ -50,7 +50,7 @@ On the call scheduling the interview, the principals of this new fund described 
 
 {% img /images/asset-class-spectrum.png 700 455 %}
 
-They wanted to start with a large fund mindset, and run the business on an industrial-grade infrastructure in order to meet investor needs, due diligence and to create investor comfort. They wanted the right technology up front to enable this kind of fund and to ensure smooth running and excellent control.
+They wanted to start with a large fund mindset, and run the business on an institutional-grade infrastructure in order to meet investor needs, due diligence and to create investor comfort. They wanted the right technology up front to enable this kind of fund and to ensure smooth running and excellent control.
 
 {% pullquote %}
 By the time I arrived at the job interview, I had planned and drawn out a technology architecture flow for the firm based on my own opinions as to how a large diverse asset manager should operate. {" It was *the ideal*, my idea of how a Hedge Fund and it's technology *should* work. "} In a nutshell, it was workflow based, tightly integrated, and designed to flex and scale.
@@ -149,7 +149,7 @@ For an existing fund that is already full of third-party systems held together w
 {% endpullquote %}
 
 {% pullquote %}
-This opportunity was different. A new fund. Time to build guaranteed. Unlimited access to people and knowledge. A clean slate, no legacy to worry about. And I had done it before. This was the opportunity of a lifetime, it was offered to me and I took it. Together we built `The Greeks`, a complete, industrial-grade end-to-end Hedge Fund platform for our complex Hedge Fund. {" We did it. "} And ran our business on it for years.
+This opportunity was different. A new fund. Time to build guaranteed. Unlimited access to people and knowledge. A clean slate, no legacy to worry about. And I had done it before. This was the opportunity of a lifetime, it was offered to me and I took it. Together we built `The Greeks`, a complete, institutional-grade end-to-end Hedge Fund platform for our complex Hedge Fund. {" We did it. "} And ran our business on it for years.
 {% endpullquote %}
 
 <span class="light">*For more in the series, see [Hedge Fund Systems]({{ root_url }}/blog/categories/hedge-fund-systems/) or [Hire Us]({{ root_url }}/hire-us) to help you with your Hedge Fund systems needs.*</span>

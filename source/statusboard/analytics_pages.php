@@ -1,6 +1,6 @@
 <?php
 define('ga_email','hiltmon@gmail.com');
-define('ga_password','yipgidpymwqxezfq');
+define('ga_password','f1reflys3renity');
 define('which_profile',0); // The first profile
 define('days_to_report', 0); // No of days excluding today!
 define('ga_title','Top Pages Today');

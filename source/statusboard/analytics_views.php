@@ -1,34 +1,23 @@
 <?php
-define('ga_email','hiltmon@gmail.com');
-define('ga_password','f1reflys3renity');
-define('which_profile',0); // The first profile
-define('days_to_report', 7); // No of days excluding today!
+
 define('ga_title','Hiltmon.com Stats');
+define('days_to_report', 7); // No of days excluding today!
+
+// a4573209w8816168p9189812
+  
+define('ga_profile_id','9189812');
 
 require 'gapi.class.php';
 
 date_default_timezone_set('America/New_York');
 
-$ga = new gapi(ga_email,ga_password);
-
-$ga->requestAccountData();
-
-// Run this to see available accounts
-// foreach($ga->getResults() as $result)
-// {
-//   echo $result . ' (' . $result->getProfileId() . ")<br />";
-// }
-
-// And this to get the graph
-$results = $ga->getResults();
-$result = $results[which_profile];
-$ga_profile_id = $result->getProfileId();
+$ga = new gapi('1030684386720-qf85he75l8mdmnij4vtlp1dmpfobq273@developer.gserviceaccount.com', 'Noverse-GAPI-34df33b55414.p12');
 
 $start_date = date("Y-m-d", strtotime('-' . days_to_report . ' days'));
 $end_date = date("Y-m-d");
 
 $metrics = array('pageviews', 'visitors', 'newVisits');
-$ga->requestReportData($ga_profile_id, array('Date'), $metrics, array('Date'), null, $start_date, $end_date);
+$ga->requestReportData(ga_profile_id, array('Date'), $metrics, array('Date'), null, $start_date, $end_date);
 
 $array1 = array(); $color1 = "yellow";
 $array2 = array(); $color2 = "blue";
